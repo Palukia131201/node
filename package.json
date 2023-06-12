@@ -8,23 +8,22 @@
     "watch": "node-sass --watch src/resource/scss/ --output src/public/css/",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    
-  },
+  "repository": {},
   "keywords": [
     "tan"
   ],
   "author": "tan",
   "license": "ISC",
-  "bugs": {
-    
-  },
+  "bugs": {},
   "homepage": "",
   "dependencies": {
     "bootstrap": "^5.3.0",
     "bootstrap-icons": "^1.10.5",
     "express": "^4.18.2",
-    "express-handlebars": "^7.0.7"
+    "express-handlebars": "^7.0.7",
+    "mongoose": "^7.2.3",
+    "mongoose-slug-generator": "^1.0.4",
+    "mongoose-transactions": "^1.1.4"
   },
   "devDependencies": {
     "lint-staged": "^13.2.2",

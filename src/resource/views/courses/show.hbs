@@ -1,0 +1,17 @@
+<div class="mt-4">
+    <div class="row">
+        <div class="col-lg-3" >
+            <button style="display: flex;margin: auto;" type="button btn-course" class="btn btn-outline-danger">Đăng Ký Học</button>
+            <div class="course-des"> 
+                <ul class="text-course">
+                  <li class="course-level">{{course.level}}</li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-lg-9">
+            <h2>{{course.name}}</h2>
+            <iframe width="850" height="500" src="https://www.youtube.com/embed/{{course.videoId}}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <p>{{course.des}}</p>
+        </div>
+    </div>
+</div>
